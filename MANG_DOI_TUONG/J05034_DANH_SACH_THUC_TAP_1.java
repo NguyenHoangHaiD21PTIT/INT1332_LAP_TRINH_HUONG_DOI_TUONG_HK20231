@@ -1,4 +1,4 @@
-/*import java.util.*;
+import java.util.*;
 class ThucTap{
     private int stt;
     private String msv, ten, lop, mail, dn;
@@ -43,7 +43,7 @@ public class J05034_DANH_SACH_THUC_TAP_1 {
             }
         }
     }
-}*/
+}
 /*
 6
 B17DCCN016 
