@@ -1,4 +1,4 @@
-/*import java.util.*;
+import java.util.*;
 import java.io.*;
 class NguoiHoc{
     private String msv, ten, lop,;
@@ -51,4 +51,4 @@ public class J05074_DIEM_DANH_1 {
             System.out.println();
         }
     }
-}*/
+}
