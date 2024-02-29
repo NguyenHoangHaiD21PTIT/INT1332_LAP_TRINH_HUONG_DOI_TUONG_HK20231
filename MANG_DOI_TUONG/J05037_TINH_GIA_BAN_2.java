@@ -1,4 +1,4 @@
-/*import java.util.*;
+import java.util.*;
 import java.io.*;
 class HHoa{
     private String id, name, dvt;
@@ -37,4 +37,4 @@ public class J05037_TINH_GIA_BAN_2 {
         });
         for(HHoa x: a) System.out.println(x);
     }
-} */
+} 
