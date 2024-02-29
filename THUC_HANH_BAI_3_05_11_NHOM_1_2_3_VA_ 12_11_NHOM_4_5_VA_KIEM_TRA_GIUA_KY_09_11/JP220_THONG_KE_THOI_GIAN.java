@@ -1,4 +1,4 @@
-/*package THUC_HANH_BAI_3_05_11_NHOM_1_2_3_THAY_SON;
+package THUC_HANH_BAI_3_05_11_NHOM_1_2_3_THAY_SON;
 import java.util.*;
 import java.io.*;
 import java.time.LocalDateTime;
@@ -40,4 +40,4 @@ public class JP220_THONG_KE_THOI_GIAN {
         Arrays.sort(a);
         for(Coder x: a) System.out.println(x);
     }
-}*/
+}
