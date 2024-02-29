@@ -1,4 +1,4 @@
-/*import java.util.*;
+import java.util.*;
 import java.io.*;
 class HocPhan{
     private String id, ten, nhom, gv;
@@ -46,4 +46,4 @@ public class J05080_LOP_HOC_PHAN_2 {
             }
         }
     }
-} */
+} 
