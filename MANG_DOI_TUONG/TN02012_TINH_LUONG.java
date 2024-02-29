@@ -1,4 +1,4 @@
-/*import java.util.*;
+import java.util.*;
 import java.io.*;
 class NhanV{
     private String id, name, phongban;
@@ -64,4 +64,4 @@ public class TN02012_TINH_LUONG {
         } 
         for(NhanV x: a) System.out.println(x + mp.get(x.getpban()) + " " + x.getluong());
     }
-} */
+} 
