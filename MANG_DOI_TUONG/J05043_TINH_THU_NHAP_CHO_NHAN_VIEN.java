@@ -1,4 +1,4 @@
-/*import java.util.*;
+import java.util.*;
 import java.io.*;
 class CanBo{
     private String id, name, chucvu;
@@ -43,4 +43,4 @@ public class J05043_TINH_THU_NHAP_CHO_NHAN_VIEN {
         }
         for(CanBo x: a) System.out.println(x);
     }
-}*/
+}
