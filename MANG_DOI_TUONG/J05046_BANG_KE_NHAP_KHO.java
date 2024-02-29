@@ -1,4 +1,4 @@
-/*import java.util.*;
+import java.util.*;
 import java.io.*;
 
 class KhoHang {
@@ -73,4 +73,4 @@ public class J05046_BANG_KE_NHAP_KHO {
             System.out.println(x);
         }
     }
-} */
+} 
