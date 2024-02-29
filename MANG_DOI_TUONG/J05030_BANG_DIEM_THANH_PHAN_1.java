@@ -1,4 +1,4 @@
-/*import java.util.*;
+import java.util.*;
 class SVien{
     private String msv, name, lop;
     private double diem1, diem2, diem3;
@@ -35,7 +35,7 @@ public class J05030_BANG_DIEM_THANH_PHAN_1 {
             System.out.println(i + " " + a[i - 1]);
         }
     }
-} */
+} 
 /*
 3
 B20DCCN999
