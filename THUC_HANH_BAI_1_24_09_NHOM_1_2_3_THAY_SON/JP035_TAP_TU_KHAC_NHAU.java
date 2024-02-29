@@ -1,4 +1,4 @@
-/*import java.util.*;
+import java.util.*;
 import java.io.*;
 class WordSet{
     private TreeSet<String>ts;
@@ -34,4 +34,4 @@ public class JP035_TAP_TU_KHAC_NHAU {
         System.out.println(s1.union(s2));
         System.out.println(s1.intersection(s2));
     }
-}*/
+}
