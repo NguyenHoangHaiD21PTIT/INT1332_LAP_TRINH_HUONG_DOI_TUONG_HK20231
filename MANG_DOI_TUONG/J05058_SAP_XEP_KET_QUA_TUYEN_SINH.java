@@ -1,4 +1,4 @@
-/*import java.util.*;
+import java.util.*;
 class HocSinh{
     private String ma, ten, status;
     private double toan, ly, hoa, uutien;
@@ -61,4 +61,4 @@ public class J05058_SAP_XEP_KET_QUA_TUYEN_SINH {
         });
         for(HocSinh x: a) System.out.println(x);
     }
-}*/
+}
