@@ -1,4 +1,4 @@
-/*import java.util.*;
+import java.util.*;
 import java.io.*;
 class NguoiDung{
     private String loaisd, id;
@@ -43,4 +43,4 @@ public class J05050_TINH_TIEN_DIEN {
         }
         for(NguoiDung x: a) System.out.println(x);
     }
-} */
+} 
