@@ -1,1 +1,1 @@
-# Có một số bài mình biến nó thành comment toàn bộ nhưng thực chất đây là do bị trùng class nhé
+<p>Một số bài mình biến nó thành comment cả bài thực chất là do bị trùng class nhé</p>
