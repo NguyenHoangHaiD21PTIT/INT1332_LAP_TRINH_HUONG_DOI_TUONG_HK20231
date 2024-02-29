@@ -1,4 +1,4 @@
-/*package THUC_HANH_BAI_2_15_10_NHOM_1_2_3_THAY_SON;
+package THUC_HANH_BAI_2_15_10_NHOM_1_2_3_THAY_SON;
 import java.util.*;
 import java.io.*;
 class Sinhvien1 implements Comparable<Sinhvien1>{
@@ -97,4 +97,4 @@ public class JP205_HUONG_DAN_DO_AN_TOT_NGHIEP{
             if(x.getDeTai()!=null) System.out.println(x);
         }
     }
-}*/
+}
