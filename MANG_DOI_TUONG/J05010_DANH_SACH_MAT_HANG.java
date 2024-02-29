@@ -1,4 +1,4 @@
-/*import java.util.*;
+import java.util.*;
 
 class Hang {
     private int ma;
@@ -42,4 +42,4 @@ public class J05081_DANH_SACH_MAT_HANG {
             System.out.println(x);
         }
     }
-} */
+} 
