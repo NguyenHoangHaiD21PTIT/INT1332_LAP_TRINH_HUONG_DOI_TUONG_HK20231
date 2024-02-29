@@ -1,4 +1,4 @@
-/*import java.util.*;
+import java.util.*;
 import java.io.*;
 class NhanV{
     private String id, name, phongban;
@@ -70,4 +70,4 @@ public class J05078_BANG_LUONG_THEO_PHONG_BAN {
             }
         }
     }
-}*/
+}
