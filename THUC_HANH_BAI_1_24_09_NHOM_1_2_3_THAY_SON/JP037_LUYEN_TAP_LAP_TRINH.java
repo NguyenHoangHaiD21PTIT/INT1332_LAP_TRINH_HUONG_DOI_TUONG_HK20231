@@ -1,4 +1,4 @@
-/*import java.util.*;
+import java.util.*;
 import java.io.*;
 class Student implements Comparable<Student>{
     private String name;
@@ -30,4 +30,4 @@ public class JP037_LUYEN_TAP_LAP_TRINH{
         Arrays.sort(a);
         for(Student x: a) System.out.println(x);
     }
-}*/
+}
