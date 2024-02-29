@@ -1,4 +1,4 @@
-/*import java.util.*;
+import java.util.*;
 class PhuHo{
     private String name, birth, id, xeploai;
     private double lt, th;
@@ -51,4 +51,4 @@ public class J05060_KET_QUA_XET_TUYEN {
         }
         for(PhuHo x: a) System.out.println(x);
     }
-}*/
+}
