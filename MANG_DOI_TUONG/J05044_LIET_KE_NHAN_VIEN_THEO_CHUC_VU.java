@@ -1,4 +1,4 @@
-/*import java.util.*;
+import java.util.*;
 import java.io.*;
 class CanBo{
     private String id, name, chucvu;
@@ -49,4 +49,4 @@ public class J05044_LIET_KE_NHAN_VIEN_THEO_CHUC_VU {
             if(x.getchuc().equals(s)) System.out.println(x);
         }
     }
-} */
+} 
