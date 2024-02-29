@@ -1,4 +1,4 @@
-/*import java.util.*;
+import java.util.*;
 import java.io.*;
 class WordSet{
     private TreeSet<String>ts;
@@ -21,4 +21,4 @@ public class J07007_LIET_KE_TU_KHAC_NHAU {
         WordSet ws = new WordSet("VANBAN.in");
         System.out.println(ws);
     }
-}*/
+}
