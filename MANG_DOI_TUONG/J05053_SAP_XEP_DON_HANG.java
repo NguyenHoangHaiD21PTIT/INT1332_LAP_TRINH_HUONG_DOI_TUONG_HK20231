@@ -1,4 +1,4 @@
-/*import java.util.*;
+import java.util.*;
 import java.io.*;
 class Clothes{
     private String ten, ma, loai, stt;
@@ -40,4 +40,4 @@ public class J05053_SAP_XEP_DON_HANG {
         });
         for(Clothes x: a) System.out.println(x);
     }
-} */
+} 
