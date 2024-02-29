@@ -1,4 +1,4 @@
-/*package THUC_HANH_BAI_2_15_10_NHOM_1_2_3_THAY_SON;
+package THUC_HANH_BAI_2_15_10_NHOM_1_2_3_THAY_SON;
 import java.util.*;
 import java.io.*;
 class User{
@@ -43,4 +43,4 @@ public class JP217_LOP_USER {
             else System.out.print(mp2.get(x.getId()) + " ");
         }
     }
-}*/
+}
