@@ -1,4 +1,4 @@
-/*import java.util.*;
+import java.util.*;
 import java.io.*;
 class Pair<T1, T2>{
     public static boolean checknt(int x){
@@ -39,4 +39,4 @@ public class J07017_LOP_PAIR_generic {
             if(!check) System.out.println(-1);
         }
     }
-}*/
+}
