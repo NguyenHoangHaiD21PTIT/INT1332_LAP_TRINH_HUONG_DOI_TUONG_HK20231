@@ -1,4 +1,4 @@
-/*import java.util.*;
+import java.util.*;
 import java.io.*;
 class VDV{
     public static int chenhlech(String s1, String s2){ //Số giây chênh lệch
@@ -86,4 +86,4 @@ public class J05056_XEP_HANG_VAN_DONG_VIEN_2 {
             System.out.println(" " + mp1.get(p.getthuc()));
         }
     }
-} */
+} 
