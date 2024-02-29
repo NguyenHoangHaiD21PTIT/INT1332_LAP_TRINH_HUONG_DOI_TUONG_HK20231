@@ -1,4 +1,4 @@
-/*import java.util.*;
+import java.util.*;
 class DN{
     private String id, name;
     private int slot;
@@ -41,4 +41,4 @@ public class J05029_DANH_SACH_DOANH_NGHIEP_NHAN_SINH_VIEN_THUC_TAP_2 {
             }
         }
     }
-} */
+} 
