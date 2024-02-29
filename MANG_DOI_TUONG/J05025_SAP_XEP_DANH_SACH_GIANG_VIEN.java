@@ -1,4 +1,4 @@
-/*import java.util.*;
+import java.util.*;
 class GiangVien{
     private String name, mon, ten, montat, id;
     public GiangVien(int x, String name, String mon){
@@ -39,4 +39,4 @@ public class J05025_SAP_XEP_DANH_SACH_GIANG_VIEN {
         });
         for(GiangVien x: a) System.out.println(x);
     }
-}*/
+}
