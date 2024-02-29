@@ -1,4 +1,4 @@
-/*import java.util.*;
+import java.util.*;
 import java.io.*;
 class Team{
     private String maTeam, tenTeam, tenTruong;
