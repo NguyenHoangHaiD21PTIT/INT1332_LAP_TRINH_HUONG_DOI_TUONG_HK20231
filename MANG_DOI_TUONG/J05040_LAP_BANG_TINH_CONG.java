@@ -1,4 +1,4 @@
-/*import java.util.*;
+import java.util.*;
 import java.io.*;
 class CongNhan{
     private String mnv, ten, chucvu;
@@ -45,4 +45,4 @@ public class J05040_LAP_BANG_TINH_CONG {
             System.out.println(x);
         }
     }
-} */
+} 
