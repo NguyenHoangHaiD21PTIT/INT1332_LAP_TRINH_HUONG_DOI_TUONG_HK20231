@@ -1,4 +1,4 @@
-/*import java.util.*;
+import java.util.*;
 import java.io.*;
 class Mat_Hang{
     private String ten, dvt, id;
@@ -82,5 +82,5 @@ public class JP210_BAI_TOAN_BAN_HANG {
             }
         }
     }
-}*/
+}
 
