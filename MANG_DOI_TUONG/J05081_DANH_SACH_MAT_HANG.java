@@ -1,4 +1,4 @@
-/*import java.util.*;
+import java.util.*;
 
 class MatHang {
     private String ma, ten, dvt;
@@ -48,4 +48,4 @@ public class J05081_DANH_SACH_MAT_HANG {
             System.out.println(x);
         }
     } 
-} */
+} 
