@@ -1,4 +1,4 @@
-/*package THUC_HANH_BAI_3_05_11_NHOM_1_2_3_THAY_SON;
+package THUC_HANH_BAI_3_05_11_NHOM_1_2_3_THAY_SON;
 import java.util.*;
 import java.io.*;
 class Matrix {
@@ -49,4 +49,4 @@ public class JP032_SAP_XEP_MA_TRAN {
             System.out.print(b);
         }
     }
-}*/
+}
