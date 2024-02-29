@@ -1,4 +1,4 @@
-/*import java.util.*;
+import java.util.*;
 class PTITer{
     private String ten;
     private int correct, submit;
@@ -38,4 +38,4 @@ public class J05042_BANG_XEP_HANG {
         });
         for(PTITer x: a) System.out.println(x);
     }
-} */
+} 
