@@ -1,4 +1,4 @@
-/*import java.util.*;
+import java.util.*;
 import java.io.*;
 class CongNhan{
     private String mnv, ten, chucvu;
@@ -51,4 +51,4 @@ public class J03058_BANG_KE_TIEN_LUONG {
         }
         System.out.println("Tong chi phi tien luong: " + tong);
     }
-} */
+} 
