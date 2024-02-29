@@ -1,4 +1,4 @@
-/*package VAO_RA_FILE;
+package VAO_RA_FILE;
 import java.util.*;
 import java.io.*;
 class NhomHP implements Comparable<NhomHP>{
@@ -62,4 +62,4 @@ public class J07075_LICH_GIANG_DAY_THEO_GIANG_VIEN {
             if(x.getTenGV().equals(s)) System.out.println(x);
         }
     }
-}*/
+}
