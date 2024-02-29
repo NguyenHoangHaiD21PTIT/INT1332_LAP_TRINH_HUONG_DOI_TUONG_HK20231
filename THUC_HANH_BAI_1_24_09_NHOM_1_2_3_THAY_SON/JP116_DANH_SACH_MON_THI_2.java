@@ -1,4 +1,4 @@
-/*import java.util.*;
+import java.util.*;
 import java.io.*;
 class Subject{
     private String ma, ten, hinhthuc;
@@ -31,4 +31,4 @@ public class JP116_DANH_SACH_MON_THI_2{
         });
         for(Subject x: a) System.out.println(x);
     }
-}*/
+}
