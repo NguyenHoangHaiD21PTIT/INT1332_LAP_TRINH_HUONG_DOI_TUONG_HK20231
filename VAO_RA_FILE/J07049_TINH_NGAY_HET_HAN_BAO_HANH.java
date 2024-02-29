@@ -1,4 +1,4 @@
-/*import java.util.*;
+import java.util.*;
 import java.io.*;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
@@ -85,4 +85,4 @@ public class J07049_TINH_NGAY_HET_HAN_BAO_HANH {
         Arrays.sort(b);
         for(KhachHang1 x: b) System.out.println(x);
     }
-}*/
+}
