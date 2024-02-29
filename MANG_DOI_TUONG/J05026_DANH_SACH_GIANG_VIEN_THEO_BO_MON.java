@@ -1,4 +1,4 @@
-/*import java.util.*;
+import java.util.*;
 class GiangVien{
     private String name, mon, ten, montat, id;
     public GiangVien(int x, String name, String mon){
@@ -41,4 +41,4 @@ public class J05026_DANH_SACH_GIANG_VIEN_THEO_BO_MON {
             }
         }
     }
-} */
+} 
