@@ -1,4 +1,4 @@
-/*import java.util.*;
+import java.util.*;
 import java.io.*;
 class DiemThi implements Comparable<DiemThi>{
     private String msv, maMon;
@@ -75,4 +75,4 @@ public class J07035_BANG_DIEM_THEO_MON_HOC {
             }
         } 
     }
-} */
+} 
