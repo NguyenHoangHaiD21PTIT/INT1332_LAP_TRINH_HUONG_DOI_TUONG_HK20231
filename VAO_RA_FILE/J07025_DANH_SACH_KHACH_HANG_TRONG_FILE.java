@@ -1,4 +1,4 @@
-/*import java.util.*;
+import java.util.*;
 import java.io.*;
 class KH{
     public static String chuanhoa1(String s){ //Chuẩn hóa từ trong tên
@@ -63,4 +63,4 @@ public class J07025_DANH_SACH_KHACH_HANG_TRONG_FILE {
             e.printStackTrace();
         }
     }
-} */
+} 
