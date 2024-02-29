@@ -1,4 +1,4 @@
-/*import java.util.*;
+import java.util.*;
 import java.io.*;
 class NhomHP implements Comparable<NhomHP>{
     private String maNhom, maMon, tenGV, phong;
@@ -48,4 +48,4 @@ public class J07074_LICH_GIANG_DAY_THEO_MON_HOC {
             if(x.getMaMon().equals(s)) System.out.println(x);
         }
     }
-}*/
+}
