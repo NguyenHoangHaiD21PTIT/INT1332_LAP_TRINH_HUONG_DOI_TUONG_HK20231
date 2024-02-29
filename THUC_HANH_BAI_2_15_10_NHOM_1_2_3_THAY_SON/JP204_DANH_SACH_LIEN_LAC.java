@@ -1,4 +1,4 @@
-/*import java.util.*;
+import java.util.*;
 import java.io.*;
 class Sinhvien1 implements Comparable<Sinhvien1>{
     private String msv, ten, lop, mail, sdt;
@@ -28,5 +28,5 @@ public class JP204_DANH_SACH_LIEN_LAC {
         Collections.sort(a);
         for(Sinhvien1 x: a) System.out.println(x);
     }
-}*/
+}
 
