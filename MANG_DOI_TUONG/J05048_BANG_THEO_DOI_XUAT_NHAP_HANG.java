@@ -1,4 +1,4 @@
-/*import java.util.*;
+import java.util.*;
 import java.io.*;
 class NongSan{
     private String id;
@@ -42,4 +42,4 @@ public class J05048_BANG_THEO_DOI_XUAT_NHAP_HANG {
         }
         for(NongSan x: a) System.out.println(x);
     }
-} */
+} 
