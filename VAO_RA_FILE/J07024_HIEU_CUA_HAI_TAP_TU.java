@@ -1,4 +1,4 @@
-/*import java.util.*;
+import java.util.*;
 import java.io.*;
 class WordSet{
     private TreeSet<String>ts;
@@ -34,5 +34,5 @@ public class J07024_HIEU_CUA_HAI_TAP_TU {
         System.out.println(s1.difference(s2));
         System.out.println(s2.difference(s1));
     }
-} */
+} 
 
