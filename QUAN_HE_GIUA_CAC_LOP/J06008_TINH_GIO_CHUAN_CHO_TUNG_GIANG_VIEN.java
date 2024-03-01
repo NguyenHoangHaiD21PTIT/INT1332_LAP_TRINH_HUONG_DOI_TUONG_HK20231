@@ -1,4 +1,4 @@
-/*import java.util.*;
+import java.util.*;
 import java.io.*;
 class GV{
     private String id, subject, time;
@@ -20,11 +20,7 @@ class GV{
     }
 }
 
-/**
- *
- * @author Admin
- */
-/*public class J06008_INH_GIO_CHUAN_CHO_TUNG_GIANG_VIEN {
+public class J06008_INH_GIO_CHUAN_CHO_TUNG_GIANG_VIEN {
     public static void main(String[] args) throws IOException{
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
@@ -58,4 +54,4 @@ class GV{
         }
         System.out.println("Tong: " + String.format("%.2f", res));
     }
-}*/
+}
