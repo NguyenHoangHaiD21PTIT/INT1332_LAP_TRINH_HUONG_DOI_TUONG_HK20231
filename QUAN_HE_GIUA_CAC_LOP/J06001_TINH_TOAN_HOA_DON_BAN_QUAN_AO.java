@@ -1,4 +1,4 @@
-/*import java.util.*;
+import java.util.*;
 import java.io.*;
 class San_Pham{
     private String id, ten;
@@ -89,4 +89,4 @@ public class J06001_TINH_TOAN_HOA_DON_BAN_QUAN_AO {
         }
         for(HoaDon x: b) System.out.println(x);
     }
-} */
+} 
