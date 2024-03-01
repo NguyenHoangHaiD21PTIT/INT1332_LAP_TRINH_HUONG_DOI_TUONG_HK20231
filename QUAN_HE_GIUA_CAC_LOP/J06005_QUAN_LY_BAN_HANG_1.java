@@ -1,4 +1,4 @@
-/*import java.util.*;
+import java.util.*;
 import java.io.*;
 class Mat_Hang{
     private String ten, dvt, id;
@@ -80,4 +80,4 @@ public class J06005_QUAN_LY_BAN_HANG_1 {
             }
         }
     }
-} */
+} 
