@@ -4,28 +4,22 @@ public class J08028_HINH_CHU_NHAT_DON_SAC {
     public static long kq(long[] a, int n) {
         long res = Long.MIN_VALUE;
         Stack<Integer> st = new Stack<>();
-        int i = 0;
-        while (i < n) {
-            if (st.empty() || a[i] > a[st.peek()]) {
-                st.push(i);
-                i++;
-            } else {
-                int idx = st.pop();
-                if (st.empty()) {
-                    res = Math.max(res, (long)i * a[idx]);
-                } else {
-                    res = Math.max(res, (long) a[idx] * (i - st.peek() - 1));
-                }
-            }
+        int[] l = new int[n];
+        int[] r = new int[n];
+        for (int i = n - 1; i >= 0; i--) {
+            while (!st.empty() && a[i] <= a[st.peek()]) st.pop();
+            if (st.empty()) r[i] = n - 1;
+            else r[i] = st.peek() - 1;
+            st.push(i);
         }
-        while (!st.empty()) {
-            int idx = st.pop();
-            if (st.empty()) {
-                res = Math.max(res, (long)i * a[idx]);
-            } else {
-                res = Math.max(res, (long) a[idx] * (i - st.peek() - 1));
-            }
+        st.clear();
+        for (int i = 0; i < n; i++) {
+            while (!st.empty() && a[i] <= a[st.peek()]) st.pop();
+            if (st.empty()) l[i] = 0;
+            else l[i] = st.peek() + 1;
+            st.push(i);
         }
+        for (int i = 0; i < n; i++) res = Math.max(res, (long) (r[i] - l[i] + 1) * a[i]);
         return res;
     }
 
@@ -37,11 +31,10 @@ public class J08028_HINH_CHU_NHAT_DON_SAC {
         for (int i = 0; i < n; i++) {
             a[i] = sc.nextInt();
             b[i] = m - a[i];
-        }   
+        }
         long res = Long.MIN_VALUE;
         res = Math.max(res, kq(a, n));
         res = Math.max(res, kq(b, n));
         System.out.println(res);
     }
 }
-
