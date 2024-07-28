@@ -1,4 +1,4 @@
-/*import java.util.*;
+import java.util.*;
 import java.io.*;
 class XangDau{
     private String id, hangsx;
@@ -40,4 +40,4 @@ public class J05067_QUAN_LY_KHO_XANG_DAU {
         for(int i = 0;i<n;i++) a[i] = new XangDau(sc.nextLine());
         for(XangDau x: a) System.out.println(x);
     }
-}*/
+}
