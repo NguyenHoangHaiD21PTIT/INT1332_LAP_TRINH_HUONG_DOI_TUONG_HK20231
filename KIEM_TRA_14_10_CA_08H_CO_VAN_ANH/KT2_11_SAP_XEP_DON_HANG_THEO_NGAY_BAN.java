@@ -59,7 +59,7 @@ public class KT2_11_SAP_XEP_DON_HANG_THEO_NGAY_BAN {
             long sum = 0;
             for(int j = 0;j<n;j++){
                 b.add(new DonHang1(sc.nextLine(), Long.parseLong(sc.nextLine().trim()), Long.parseLong(sc.nextLine().trim())));
-                sum+=b . get(j).getThanhTien();
+                sum+=b.get(j).getThanhTien();
                 a[i].setThanhTien(sum);
             }   
         }
