@@ -29,7 +29,7 @@ class Phim implements Comparable<Phim> {
     }
 }
 
-public class DANH_SACH_PHIM {
+public class JP499_DANH_SACH_PHIM {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         HashMap<String, String> d = new HashMap<>();
