@@ -28,7 +28,7 @@ class Polygon{
         return String.format("%.3f", area);
     }
 }
-public class JP104_LOP_POLYGON {
+public class JP104_JP399_LOP_POLYGON {
     public static void main(String[] args) throws FileNotFoundException {
         Scanner in = new Scanner(new File("POLYGON.in"));
         int t = in.nextInt();
