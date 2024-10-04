@@ -1,5 +1,5 @@
 import java.util.*;
-public class DSAP056_SO_NGUYEN_THUY {
+public class JP317_SO_NGUYEN_THUY {
     static ArrayList<String> v = new ArrayList<>();
     public static void gen() {
         Queue<String> q = new LinkedList<>();
