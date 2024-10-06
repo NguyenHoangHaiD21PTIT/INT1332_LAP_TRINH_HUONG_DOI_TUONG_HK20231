@@ -19,7 +19,7 @@ class Student implements Comparable<Student>{
         return this.name.trim() + " " + this.correct + " " + this.submit;
     }
 }
-public class LUYEN_TAP_LAP_TRINH{
+public class JP037_LUYEN_TAP_LAP_TRINH{
     public static void main(String[] args) throws IOException{
         Scanner sc = new Scanner (new File("LUYENTAP.in"));
         int n = sc.nextInt();
