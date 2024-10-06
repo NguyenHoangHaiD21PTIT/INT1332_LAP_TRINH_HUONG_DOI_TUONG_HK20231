@@ -1,6 +1,6 @@
 package THI_CUOI_KY_D21_Demo;
 import java.util.*;
-public class TINH_DIEM_TRUNG_BINH {
+public class JP016_TINH_DIEM_TRUNG_BINH {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
