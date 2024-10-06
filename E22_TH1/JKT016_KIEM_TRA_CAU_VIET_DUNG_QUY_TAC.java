@@ -1,4 +1,3 @@
-package E22_TH1;
 import java.util.*;
 public class JKT016_KIEM_TRA_CAU_VIET_DUNG_QUY_TAC {
     public static boolean valid(char a, char b) {
@@ -9,8 +8,7 @@ public class JKT016_KIEM_TRA_CAU_VIET_DUNG_QUY_TAC {
         for (char c : s.toCharArray()) {
             if (c == '(' || c == '[' || c == '{') st.push(c);
             else if (c == ')' || c == ']' || c == '}') {
-                if (st.isEmpty() || !valid(st.peek(), c)) return false;
-                st.pop();
+                if (st.isEmpty() || !valid(st.pop(), c)) return false;
             }
         }
         return st.isEmpty();
