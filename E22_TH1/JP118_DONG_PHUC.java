@@ -33,17 +33,17 @@ class Student implements Comparable<Student>{
 
 public class JP118_DONG_PHUC {
     public static void main(String[] args) throws IOException{
-        Scanner sc = new Scanner(new File("C:\\Users\\Hai\\Documents\\NetBeansProjects\\LuyenThiLapTrinhMang\\src\\E22_TH1\\SINHVIEN.in"));
+        Scanner sc = new Scanner(new File("SINHVIEN.in"));
         int n = Integer.parseInt(sc.nextLine());
         ArrayList<Student>a = new ArrayList<>();
         for(int i = 0;i<n;i++) a.add(new Student(sc.nextLine(), sc.nextLine(), sc.nextLine(), sc.nextLine(), sc.nextLine(), sc.nextLine()));
-        sc = new Scanner(new File("C:\\Users\\Hai\\Documents\\NetBeansProjects\\LuyenThiLapTrinhMang\\src\\E22_TH1\\DANGKY.in"));
+        sc = new Scanner(new File("DANGKY.in"));
         for(int i = 0;i<n;i++){
             String s = sc.nextLine();
             String []tmp1 = s.trim().split("\\s+");
             a.get(i).setSizeAo(tmp1[1]);
         }
-        sc = new Scanner(new File("C:\\Users\\Hai\\Documents\\NetBeansProjects\\LuyenThiLapTrinhMang\\src\\E22_TH1\\TRUYVAN.in"));
+        sc = new Scanner(new File("TRUYVAN.in"));
         Collections.sort(a);
         int q = Integer.parseInt(sc.nextLine());
         for(int i = 0;i<q;i++){
