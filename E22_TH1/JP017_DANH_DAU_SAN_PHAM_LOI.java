@@ -16,7 +16,7 @@ public class JP017_DANH_DAU_SAN_PHAM_LOI {
         }
         System.out.print("Errors: ");
         printRanges(loi);
-        System.out.print("Not Errors: ");
+        System.out.print("Correct: ");
         printRanges(khongLoi);
     }
     public static void printRanges(ArrayList<Integer> list) {
@@ -30,8 +30,8 @@ public class JP017_DANH_DAU_SAN_PHAM_LOI {
             if (list.get(i) == end + 1) {
                 end = list.get(i);  
             } else {
-                if (start == end) res+= String.format("%d", start) + " ";
-                else res+= String.format("%d-%d", start, end) + " ";
+                if (start == end) res+= String.format("%d", start) + ", ";
+                else res+= String.format("%d-%d", start, end) + ", ";
                 start = list.get(i);
                 end = list.get(i);
             }
@@ -39,6 +39,9 @@ public class JP017_DANH_DAU_SAN_PHAM_LOI {
         res+="and ";
         if (start == end) res+= String.format("%d", start);
         else res+= String.format("%d-%d", start, end);
+        //Cắt dấu phẩy cuối
+        int idx = res.lastIndexOf(",");
+        if(idx!=-1) res = res.substring(0, idx) + res.substring(idx + 1);
         System.out.println(res);
     }
 }
@@ -46,4 +49,9 @@ public class JP017_DANH_DAU_SAN_PHAM_LOI {
 /*
 100 10
 2 3 5 10 11 12 25 26 88 89
+Errors: 2-3, 5, 10-12, 25-26 and 88-89
+Correct: 1, 4, 6-9, 13-24, 27-87 and 90-100
+
+40 18
+1 3 4 6 7 8 9 12 13 14 20 25 26 27 28 30 38 40
 */
