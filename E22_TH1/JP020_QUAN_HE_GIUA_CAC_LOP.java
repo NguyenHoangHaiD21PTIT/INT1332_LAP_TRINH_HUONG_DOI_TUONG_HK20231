@@ -1,5 +1,5 @@
 import java.util.*;
-public class JP108_QUAN_HE_GIUA_CAC_LOP {
+public class JP020_QUAN_HE_GIUA_CAC_LOP {
     private static Map<String, List<String>> isa = new HashMap<>();
     private static Map<String, List<String>> has = new HashMap<>();
     private static Map<String, Map<String, Boolean>> memIsa = new HashMap<>();
