@@ -1,6 +1,6 @@
 import java.util.*;
 import java.io.*;
-public class JP030_TINH_TONG_SO_LONG{
+public class JP030_JP326_TINH_TONG_SO_LONG{
     public static void main(String[] args) throws IOException{
         Scanner sc = new Scanner(new File("DATA.in"));
         long tong = 0;
