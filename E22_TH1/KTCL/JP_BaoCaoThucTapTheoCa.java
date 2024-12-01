@@ -20,11 +20,11 @@ class Student{
 }
 public class JP_BaoCaoThucTapTheoCa {
     public static void main(String[] args) throws Exception{
-        Scanner sc = new Scanner(new File("C:\\Users\\Hai\\Documents\\NetBeansProjects\\OnTapWS\\src\\KTCL\\BAITAP.in"));
+        Scanner sc = new Scanner(new File("BAITAP.in"));
         int n = Integer.parseInt(sc.nextLine());
         ArrayList<Student>a = new ArrayList<>();
         for(int i = 0;i<n;i++) a.add(new Student(sc.nextLine(), sc.nextLine(), sc.nextLine()));
-        sc = new Scanner(new File("C:\\Users\\Hai\\Documents\\NetBeansProjects\\OnTapWS\\src\\KTCL\\BAOCAO.in"));
+        sc = new Scanner(new File("BAOCAO.in"));
         for(int i = 0;i<n;i++){
             String msv = sc.nextLine(), gio = sc.nextLine();
             a.get(i).setTime(gio);
