@@ -1,6 +1,6 @@
 import java.io.*;
 import java.util.*;
-public class JKT113_DOC_FILE_NHI_PHAN_1 {
+public class JP113_DOC_FILE_NHI_PHAN_1 {
     static int []nt = new int[1000005];//Bằng 0 là SNT và ngược lại
     public static void sang(){
         nt[1] = nt[0] = 1;
