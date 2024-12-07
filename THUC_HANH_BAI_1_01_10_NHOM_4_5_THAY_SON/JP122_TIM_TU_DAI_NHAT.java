@@ -1,7 +1,6 @@
-package OnTap;
 import java.util.*;
-public class CTest002_TIM_TU_DAI_NHAT {
-    public static void main(String[] args) {
+public class JP122_TIM_TU_DAI_NHAT {
+    public static void main(String[] args) throws Exception{
         Scanner sc = new Scanner(System.in);
         String ans = ""; int q = -1;
         while(sc.hasNext()){
@@ -11,6 +10,6 @@ public class CTest002_TIM_TU_DAI_NHAT {
                 ans = s;
             }
         }
-        System.out.println(ans);
+        System.out.println(ans + " - " + q);
     }
 }
