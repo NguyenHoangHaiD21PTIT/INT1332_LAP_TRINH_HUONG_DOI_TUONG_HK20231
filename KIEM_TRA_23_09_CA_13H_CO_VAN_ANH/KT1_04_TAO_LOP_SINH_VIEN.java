@@ -1,4 +1,4 @@
-/*import java.util.*;
+import java.util.*;
 class Sinhvien{
     private String msv, ten, gioi, status, gioit;
     private double diem;
@@ -23,7 +23,7 @@ class Sinhvien{
         System.out.println(this.msv + " " + this.ten + " " + this.gioi + " " + this.status);
     }
 }
-public class TAO_LOP_SINH_VIEN {
+public class KT1_04_TAO_LOP_SINH_VIEN {
     public static void main(String[] args) {
         Sinhvien sv = new Sinhvien();
         //input()
@@ -31,5 +31,5 @@ public class TAO_LOP_SINH_VIEN {
         //output()
         sv.out();
     }
-}*/
+}
 
