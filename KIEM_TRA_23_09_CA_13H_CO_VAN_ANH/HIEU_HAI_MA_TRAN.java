@@ -11,9 +11,7 @@ class Matran{
     }
     public void input(Scanner sc){
         for(int i = 0;i<this.n;i++){
-            for(int j = 0;j<this.n;j++){
-                this.a[i][j] = sc.nextInt();
-            }
+            for(int j = 0;j<this.n;j++) this.a[i][j] = sc.nextInt();
         }
     }
     public int getKT(){
@@ -21,23 +19,19 @@ class Matran{
     }
     public void out(){
         for(int i = 0;i<this.n;i++){
-            for(int j = 0;j<this.n;j++){
-                System.out.print(this.a[i][j] + " ");
-            }
+            for(int j = 0;j<this.n;j++) System.out.print(this.a[i][j] + " ");
             System.out.println();
         }
     }
     public Matran hieu(int [][]b){
         Matran res = new Matran(this.n);
         for(int i = 0;i<this.n;i++){
-            for(int j = 0;j<this.n;j++){
-                res.a[i][j] = this.a[i][j] - b[i][j];
-            }
+            for(int j = 0;j<this.n;j++) res.a[i][j] = this.a[i][j] - b[i][j];
         }
         return res;
     }
 }
-public class HIEU_HAI_MA_TRAN {
+public class KT1_16_HIEU_HAI_MA_TRAN {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         //nhap kich thuoc
