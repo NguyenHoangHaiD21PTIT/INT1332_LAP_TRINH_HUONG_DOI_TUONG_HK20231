@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class SO_DEP_4 {
+public class KT1_18_SO_DEP_4 {
     public static int check(char c) {
         if (c != '6' && c != '8') return 0;
         return 1;
