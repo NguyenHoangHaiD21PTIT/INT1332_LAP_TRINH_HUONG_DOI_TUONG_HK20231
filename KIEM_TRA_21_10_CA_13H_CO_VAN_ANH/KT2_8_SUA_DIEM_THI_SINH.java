@@ -13,46 +13,34 @@ class ThiSinh{
         this.ly = ly;
         this.hoa = hoa;
         this.giai = giai;
-        if(this.maThiSinh.charAt(2)=='1'){
-            this.uuTien+=0;
-        } else if(this.maThiSinh.charAt(2)=='2'){
-            this.uuTien+=1;
-        } else {
-            this.uuTien+=2;
-        }
-        if(this.giai==0){
-            this.uuTien+=0;
-        } else if(this.giai==1){
-            this.uuTien+=1.5;
-        } else if(this.giai==2){
-            this.uuTien+=1;
-        } else {
-            this.uuTien+=0.5;
-        }
+        
+        if(this.maThiSinh.charAt(2)=='1') this.uuTien+=0;
+        else if(this.maThiSinh.charAt(2)=='2') this.uuTien+=1;
+        else this.uuTien+=2;
+        
+        if(this.giai==0) this.uuTien+=0;
+        else if(this.giai==1) this.uuTien+=1.5;
+        else if(this.giai==2) this.uuTien+=1;
+        else this.uuTien+=0.5;
+        
         if(!this.danToc.equals("kinh")) this.uuTien+=1;
         this.tongKUT = this.toan + this.ly + this.hoa;
         this.tong = this.tongKUT + this.uuTien;
-        if(this.tong>=26.8){
-            this.status = "TRUNG TUYEN";
-        } else {
-            this.status = "TRUOT";
-        }
+        
+        if(this.tong>=26.8) this.status = "TRUNG TUYEN";
+        else  this.status = "TRUOT";
     }
     public String toString(){
         String res = "";
         res+= this.maThiSinh + " " + this.ten + " ";
+        
         int x = (int)this.uuTien;
-        if(this.uuTien != x){
-            res+=String.format("%.1f", this.uuTien) + " ";
-        } else {
-            res+=String.format("%.0f", this.uuTien) + " ";
-        }
+        if(this.uuTien != x)res+=String.format("%.1f", this.uuTien) + " ";
+        else res+=String.format("%.0f", this.uuTien) + " ";
+        
         int y = (int)this.tongKUT;
-        if(this.tongKUT != y){
-            res+=String.format("%.1f", this.tongKUT) + " ";
-        } else {
-            res+=String.format("%.0f", this.tongKUT) + " ";
-        }
+        if(this.tongKUT != y) res+=String.format("%.1f", this.tongKUT) + " ";
+        else res+=String.format("%.0f", this.tongKUT) + " ";
         res+=this.status;
         return res;
     }
