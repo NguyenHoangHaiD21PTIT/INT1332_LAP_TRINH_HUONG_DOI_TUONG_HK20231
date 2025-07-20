@@ -23,7 +23,7 @@ class NhanVien {
         return ma + " " + getHoTen() + " " + gt + " " + namSinh;
     }
 }
-public class TaoLopNhanVien {
+public class D22VLVH_03_TAO_LOP_NHAN_VIEN {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         NhanVien nv = new NhanVien();  
