@@ -46,7 +46,7 @@ class PhanSo {
         else System.out.println(tu + "/" + mau);
     }
 }
-public class HieuHaiPhanSo {
+public class KT1_07_HIEU_HAI_PHAN_SO {
     public static void main(String[] args) {
         PhanSo a = new PhanSo();
         PhanSo b = new PhanSo();
@@ -61,4 +61,3 @@ public class HieuHaiPhanSo {
 123 456 12 34
 3 4 3 4
 -1 4 1 10 */
-
